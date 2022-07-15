@@ -28,3 +28,7 @@ function linkAction(){
 }
 
 navLink.forEach(n => n.addEventListener('click',linkAction))
+
+addEventListener('submit', (event) => {});
+
+onsubmit = (event) => { console.log("hello")};
