@@ -206,12 +206,17 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
+<!-- Created email link on submitForm wensite and paste that link in action -->
+                    <!-- <form target="_blank" action="https://formsubmit.co/el/socebi" method="POST" class="contact__form">
+                        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
                         <input type="text" placeholder="Name" class="contact__input">
                         <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input id="sendBtn" type="button" value="SEND" class="contact__button button">
-                    </form>
+                        <textarea name="" id="" placeholder="Your Message" cols="0" rows="10" class="contact__input"></textarea>
+                        <button id="sendBtn" type="submit" value="SEND" class="contact__button button">Send</button>
+                    </form>    -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <h2 class="contact_subtitle">Click On Following To Contact Me.</h2>
+                    <button id="sendBtn" type="submit" value="send" class="contact__form button"><a target="_blank" href="https://formsubmit.co/el/socebi">Contact Me</a></button>
                 </div>
             </section>
         </main>

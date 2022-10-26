@@ -361,6 +361,7 @@ img {
   margin-left: auto;
 }
 
+
 /* ===== FOOTER =====*/
 .footer {
   background-color: var(--second-color);
@@ -433,11 +434,15 @@ img {
     padding-top: 2rem;
   }
   .contact__form {
-    width: 360px;
-    padding-top: 2rem;
+    width: 200px;
+    padding: 1rem;
+    font-size: var(--normal-font-size);
   }
   .contact__container {
     justify-items: center;
+  }
+  .contact_subtitle{
+    padding-bottom: 5rem;
   }
 }
 
